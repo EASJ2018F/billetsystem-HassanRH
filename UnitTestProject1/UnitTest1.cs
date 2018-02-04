@@ -1,7 +1,6 @@
 ﻿using System;
-using BilletLib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BilletLib.BilletLib;
+using BilletLibb;
 
 namespace UnitTestProject1
 {
