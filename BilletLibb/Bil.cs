@@ -6,24 +6,39 @@ using System.Threading.Tasks;
 
 namespace BilletLibb
 {
-    public class Bil
+    public class Bil:BasseCL
     {
-        public string Nummerplade
+        //public string Nummerplade
+        //{
+        //    get { return Nummerplade; }
+        //}
+
+        public virtual string Nummerplade
         {
             get { return Nummerplade; }
+            set
+            {
+                if (value.Length > 7)
+                {
+                    throw new ArgumentException("nummberpladen må max være 7 tegn");
+
+                }
+                Nummerplade = value;
+            }
         }
+
 
         public DateTime Dato
         {
             get { return Dato; }
         }
 
-        public override int Pris()
+        public  int Pris()
         {
             return 240;
         }
 
-        public override string køretøj()
+        public  string køretøj()
         {
             return "Bil";
         }

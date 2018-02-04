@@ -22,7 +22,7 @@ namespace UnitTestProject1
             MC mc = new MC();
 
             //assert
-            Assert.AreEqual(mc.Køretøj(), "MC");
+            Assert.AreEqual(mc.køretøj(), "MC");
         }
     }
 }

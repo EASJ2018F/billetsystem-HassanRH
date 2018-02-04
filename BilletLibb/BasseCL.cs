@@ -25,9 +25,7 @@ namespace BilletLibb
         }
 
 
-        public abstract int Pris();
-
-        public abstract string køretøj();
+      
 
 
     }

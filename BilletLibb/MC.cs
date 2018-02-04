@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BilletLibb
 {
-    public class MC
+    public class MC:BasseCL
     {
         public string Nummerplade
         {
@@ -17,11 +17,11 @@ namespace BilletLibb
             get { return Dato; }
         }
 
-        public int Pris()
+        public  int Pris()
         {
             return 125;
         }
-        public string Køretøj()
+        public  string køretøj()
         {
             return "MC";
         }
