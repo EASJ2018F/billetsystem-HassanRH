@@ -10,6 +10,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
+            //arange
             MC mc = new MC();
 
             //assert
@@ -18,11 +19,22 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod2()
         {
-
+            //arange
             MC mc = new MC();
 
             //assert
             Assert.AreEqual(mc.køretøj(), "MC");
+        }
+
+        [TestMethod]
+        public void Brobizz()
+        {
+            //arrange
+            MC mc = new MC();
+            mc.Brobizz = true;
+
+            //assert
+            Assert.AreEqual(mc.Pris(), 95);
         }
     }
 }

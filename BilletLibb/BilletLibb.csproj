@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BasseCL.cs" />
+    <Compile Include="BasseKlasse.cs" />
     <Compile Include="Bil.cs" />
     <Compile Include="MC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

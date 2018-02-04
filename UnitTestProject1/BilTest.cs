@@ -25,7 +25,18 @@ namespace UnitTestProject1
             //assert
             Assert.AreEqual(bil.køretøj(), "Bil");
         }
+         [TestMethod]
+        public void Brobizz()
+        {
+            //arrange
+            Bil bil = new Bil();
+            bil.Brobizz = true;
 
+            //assert
+            Assert.AreEqual(bil.Pris(), 190);
+                        
+         
+        }
 
     }
 }

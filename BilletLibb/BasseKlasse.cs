@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace BilletLibb
 {
-    public class BasseCL
+    public class BasseKlasse
     {
         private string _nummerplade;
         private DateTime _dato;
+        public bool Brobizz;
 
 
         public virtual string Nummerplade
